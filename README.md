@@ -143,6 +143,8 @@ ipconfig /renew
 
 This forced the system to request a new IP address and generated DHCP traffic visible in Wireshark. 
 
+<img src="images/14. Observing dhcp traffic.png" width="700">
+
 ---
 
 # Step 7 — Observing DNS Traffic
@@ -158,6 +160,9 @@ nslookup disney.com
 
 Wireshark showed DNS queries and responses resolving domain names to IP addresses. 
 
+<img src="images/15. Observing dns traffic.png" width="700">
+<img src="images/15. Observing dns traffic 2.png" width="700">
+
 ---
 
 # Step 8 — Observing RDP Traffic
@@ -169,6 +174,8 @@ tcp.port == 3389
 ```
 
 This displayed continuous Remote Desktop traffic between systems because RDP constantly streams screen updates and user input. 
+
+<img src="images/16. Observing RDP Traffic 1.png" width="700">
 
 ---
 
