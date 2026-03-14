@@ -190,13 +190,6 @@ This displayed continuous Remote Desktop traffic between systems because RDP con
 
 ---
 
-# Key Takeaways
-
-* Network protocols generate identifiable packet patterns.
-* Firewall rules directly impact network connectivity.
-* Packet analyzers like Wireshark allow visibility into network communication.
-* Cloud platforms such as Azure provide environments for realistic networking labs.
-
 ---
 
 
