@@ -49,6 +49,9 @@ Actions performed:
 
 This allowed the machines to communicate with each other using private IP addresses.
 
+<img src="images/1. Resource-Group.jpg" width="700">
+<img src="images/2. VM's.jpg" width="700">
+
 ---
 
 # Step 2 — Capturing Network Traffic with Wireshark
