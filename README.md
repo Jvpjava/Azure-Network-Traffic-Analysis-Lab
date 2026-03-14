@@ -108,7 +108,7 @@ This demonstrated how firewall rules affect network communication.
 <img src="images/8. Firewall PS Ping.jpg" width="700">
 <img src="images/9. Firewall Blocks ICMP traffic.jpg" width="700">
 <img src="images/10. Wireshark Monitors firewall blocking ICMP Traffic.jpg" width="700">
-<img src="images/11. Re-enable ICMP Traffic.jpg" width="700">
+<img src="images/11. Re-enable ICMP Traffic - ping the server.jpg" width="700">
 
 ---
 
