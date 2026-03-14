@@ -86,7 +86,7 @@ This demonstrated how ICMP is used for **connectivity testing and network diagno
 
 <img src="images/6. ICMP Traffic Wireshark.jpg" width="700">
 <img src="images/7. PS Ping Wireshark Monitor.jpg" width="700">
-<img src="images/7. PS Ping.jpg" width="700">
+<img src="images/7. PS Ping.png" width="700">
 
 
 ---
@@ -124,6 +124,9 @@ Steps performed:
 4. Ran commands inside the Linux terminal.
 
 This allowed observation of encrypted SSH traffic packets. 
+
+<img src="images/12. SSH into the ubuntu server through windows vm.jpg" width="700">
+<img src="images/13. Monitor ssh traffic from windows vm to ubuntu server.jpg" width="700">
 
 ---
 
