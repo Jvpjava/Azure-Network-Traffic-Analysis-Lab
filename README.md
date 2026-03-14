@@ -66,6 +66,11 @@ Steps performed:
 
 Wireshark was used to analyze different types of network packets generated during the lab.
 
+<img src="images/3. RDP.jpg" width="700">
+<img src="images/4. Download.jpg" width="700">
+<img src="images/5. WireShark Packet Capture.jpg" width="700">
+
+
 ---
 
 # Step 3 — Observing ICMP Traffic
@@ -78,6 +83,11 @@ To generate ICMP traffic:
 4. Observed ping request and reply packets.
 
 This demonstrated how ICMP is used for **connectivity testing and network diagnostics**. 
+
+<img src="images/6. ICMP Traffic Wireshark.jpg" width="700">
+<img src="images/7. PS Ping Wireshark Monitor.jpg" width="700">
+<img src="images/7. PS Ping.jpg" width="700">
+
 
 ---
 
@@ -94,6 +104,11 @@ Actions performed:
 5. Re-enabled ICMP traffic and confirmed connectivity returned. 
 
 This demonstrated how firewall rules affect network communication.
+
+<img src="images/8. Firewall PS Ping.jpg" width="700">
+<img src="images/9. Firewall Blocks ICMP traffic.jpg" width="700">
+<img src="images/10. Wireshark Monitors firewall blocking ICMP Traffic.jpg" width="700">
+<img src="images/11. Re-enable ICMP Traffic.jpg" width="700">
 
 ---
 
