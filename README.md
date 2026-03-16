@@ -92,10 +92,10 @@ To generate ICMP traffic:
 3. Filtered Wireshark using the **ICMP protocol filter**.
 
 <img src="images/6. ICMP Traffic Wireshark.jpg" width="700">
+<img src="images/7. PS Ping Wireshark Monitor.jpg" width="700">
 
 4. Observed ping request and reply packets.
 
-<img src="images/7. PS Ping Wireshark Monitor.jpg" width="700">
 <img src="images/7. PS Ping.png" width="700">
 
 This demonstrated how ICMP is used for **connectivity testing and network diagnostics**. 
