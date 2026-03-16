@@ -45,14 +45,19 @@ The first step was deploying cloud infrastructure in Azure.
 Actions performed:
 
 1. Created a **Resource Group** in Azure.
+
+<img src="images/1. Resource-Group.jpg" width="700">
+
 2. Created a **Windows 10 Virtual Machine**.
 3. Created an **Ubuntu Linux Virtual Machine**.
-4. Ensured both VMs were connected to the **same Virtual Network and Subnet**. 
+4. Ensured both VMs were connected to the **same Virtual Network and Subnet**.
+
+<img src="images/2. VM's.jpg" width="700">
 
 This allowed the machines to communicate with each other using private IP addresses.
 
-<img src="images/1. Resource-Group.jpg" width="700">
-<img src="images/2. VM's.jpg" width="700">
+
+
 
 ---
 
