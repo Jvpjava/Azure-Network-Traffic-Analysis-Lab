@@ -68,15 +68,18 @@ After connecting to the Windows VM using **Remote Desktop**, Wireshark was insta
 Steps performed:
 
 1. Connected to the Windows VM using **Remote Desktop Protocol (RDP)**.
-2. Installed **Wireshark** on the Windows VM.
-3. Started packet capture to observe live network traffic. 
-
-Wireshark was used to analyze different types of network packets generated during the lab.
 
 <img src="images/3. RDP.jpg" width="700">
+
+2. Installed **Wireshark** on the Windows VM.
+
 <img src="images/4. Download.jpg" width="700">
+
+3. Started packet capture to observe live network traffic. 
+
 <img src="images/5. WireShark Packet Capture.jpg" width="700">
 
+Wireshark was used to analyze different types of network packets generated during the lab.
 
 ---
 
