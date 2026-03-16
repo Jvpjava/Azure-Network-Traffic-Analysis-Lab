@@ -90,14 +90,15 @@ To generate ICMP traffic:
 1. Retrieved the **private IP address of the Ubuntu VM**.
 2. Sent ping requests from the Windows VM to the Ubuntu VM.
 3. Filtered Wireshark using the **ICMP protocol filter**.
-4. Observed ping request and reply packets.
-
-This demonstrated how ICMP is used for **connectivity testing and network diagnostics**. 
 
 <img src="images/6. ICMP Traffic Wireshark.jpg" width="700">
+
+4. Observed ping request and reply packets.
+
 <img src="images/7. PS Ping Wireshark Monitor.jpg" width="700">
 <img src="images/7. PS Ping.png" width="700">
 
+This demonstrated how ICMP is used for **connectivity testing and network diagnostics**. 
 
 ---
 
@@ -108,17 +109,26 @@ A firewall rule was applied to control traffic between the machines.
 Actions performed:
 
 1. Initiated a continuous ping from Windows VM to Ubuntu VM.
-2. Modified the **Network Security Group (NSG)** attached to the Ubuntu VM.
-3. Blocked inbound **ICMP traffic**.
+
+<img src="images/8. Firewall PS Ping.jpg" width="700">
+
+
+2. Blocked inbound **ICMP traffic**.
+
+<img src="images/9. Firewall Blocks ICMP traffic.jpg" width="700">
+   
 4. Observed the ping requests begin to fail.
+
+<img src="images/10. Wireshark Monitors firewall blocking ICMP Traffic.jpg" width="700">
+
 5. Re-enabled ICMP traffic and confirmed connectivity returned. 
+
+<img src="images/11. Re-enable ICMP Traffic - ping the server.jpg" width="700">
 
 This demonstrated how firewall rules affect network communication.
 
-<img src="images/8. Firewall PS Ping.jpg" width="700">
-<img src="images/9. Firewall Blocks ICMP traffic.jpg" width="700">
-<img src="images/10. Wireshark Monitors firewall blocking ICMP Traffic.jpg" width="700">
-<img src="images/11. Re-enable ICMP Traffic - ping the server.jpg" width="700">
+
+
 
 ---
 
@@ -129,14 +139,18 @@ Next, secure remote access traffic was generated.
 Steps performed:
 
 1. Started packet capture in Wireshark.
+
+<img src="images/12. SSH into the ubuntu server through windows vm.jpg" width="700">
+
 2. Filtered for **SSH traffic**.
 3. Connected to the Ubuntu VM using SSH from the Windows VM.
 4. Ran commands inside the Linux terminal.
 
+<img src="images/13. Monitor ssh traffic from windows vm to ubuntu server.jpg" width="700">
+
 This allowed observation of encrypted SSH traffic packets. 
 
-<img src="images/12. SSH into the ubuntu server through windows vm.jpg" width="700">
-<img src="images/13. Monitor ssh traffic from windows vm to ubuntu server.jpg" width="700">
+
 
 ---
 
