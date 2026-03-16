@@ -1,6 +1,8 @@
 # Azure-Network-Traffic-Analysis-Lab
 Azure networking lab analyzing ICMP, SSH, DNS, DHCP, and RDP traffic using Wireshark.
 
+<img src="images/windows-azure-cloud.png" width="700">
+
 ## Overview
 
 This project demonstrates how to observe and analyze network traffic using **Wireshark** inside a cloud environment hosted on **Microsoft Azure**. Virtual machines were created inside the same virtual network to generate traffic and analyze different network protocols.
